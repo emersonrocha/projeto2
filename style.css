@@ -78,7 +78,7 @@ body {
     height: 100%;
 }
 
-.nav label {
+.nav_slide label {
     width: 70px;
     height: 100%;
     position: absolute;
@@ -95,15 +95,15 @@ body {
     text-shadow: 0px 0px 15px rgb(119, 119, 119);
 }
 
-.slide:hover+.nav label {
+.slide:hover+.nav_slide label {
     opacity: 0.5;
 }
 
-.nav label:hover {
+.nav_slide label:hover {
     opacity: 1;
 }
 
-.nav .next {
+.nav_slide .next {
     right: 0px;
 }
 
@@ -113,7 +113,7 @@ input:checked+.slide-container .slide {
     transition: opacity 1s ease-in-out;
 }
 
-input:checked+.slide-container .nav label {
+input:checked+.slide-container .nav_slide label {
     display: block;
 }
 
