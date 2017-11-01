@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.menu__todo {
+    display: relative;
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.menu__menu {
+    float: right;
+    border: 1px solid;
+}
+
+.menu__foto {
+    float: left;
+    border: 1px solid;
+}
+
+.menu__text {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    height: 100%;
+    clear: left;
+    border: 1px solid;
+}
+
+.menu__footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid red;
+}
