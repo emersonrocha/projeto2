@@ -19,27 +19,38 @@ body {
     text-align: center;
 }
 
+.menu__header {
+    height: 10%;
+}
+
 .menu__menu {
+    height: 100%;
     float: right;
     border: 1px solid;
 }
 
+.menu__menu .bar {
+    border: 1px solid;
+}
+
 .menu__foto {
+    height: 100%;
     float: left;
     border: 1px solid;
 }
 
 .menu__text {
+    width: 100%;
     display: inline-block;
     vertical-align: middle;
-    height: auto;
-    height: 100%;
+    height: 80%;
     clear: left;
     border: 1px solid;
 }
 
 .menu__footer {
     width: 100%;
+    height: 10%;
     position: absolute;
     bottom: 0;
     border: 1px solid red;
